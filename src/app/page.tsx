@@ -7,8 +7,8 @@ const Home = () => {
 const [preview, setPreview] = useState("")
 
   return <main className={styles.main}>
-    <textarea id={styles.editor} value={preview} onChange={e => setPreview(e.target.value)}></textarea>
-      <div id={styles.preview}>
+    <textarea id={styles.editor} className={styles.column} value={preview} onChange={e => setPreview(e.target.value)}></textarea>
+      <div id={styles.preview} className={styles.column}>
         <Markdown>{preview}</Markdown>
       </div>
   </main>;
