@@ -3,9 +3,10 @@ export const defaultTextInEditor = `
 
 # Markdown Previewer
 ## This app is useful to preview markdown files
-This basically converts text to an ${"`<HTMLElement>`"} so that the browser can render it
+This converts text to an ${"`<HTMLElement>`"} so that the browser can render it
+
 ### How to use
-- Just type your text in the editor on the using markdown format
+- Type your text in the editor using the markdown format
 - You will get your results in the preview box on the right
 
 > Codeblock
